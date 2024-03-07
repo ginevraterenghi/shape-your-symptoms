@@ -114,6 +114,22 @@
 
   }
 
+  .link-registration {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+	font-size: 1rem;
+	color: #FFFAF0;
+	text-decoration: none;
+	padding-left:0rem;
+	text-align: center;
+
+  }
+
+
+
+
   .shape-top a {
 	font-family: "Heebo", sans-serif;
   	font-optical-sizing: auto;
@@ -125,6 +141,26 @@
   }
 
   .shape-top :hover {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 600;
+  	font-style: normal;
+	color: #FFFAF0;
+	text-decoration: none;
+	
+  }
+
+  .link-registration a {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+	color: #FFFAF0;
+	text-decoration: none;
+	
+  }
+
+  .link-registration :hover {
 	font-family: "Heebo", sans-serif;
   	font-optical-sizing: auto;
   	font-weight: 600;
@@ -155,6 +191,20 @@
 	text-align: center;
   }
 
+  .text-author {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #150F21;
+	text-align: left;
+	padding-bottom:1rem;
+	padding-top:1rem;
+	
+  }
+
   .text-white {
 	font-family: "Heebo", sans-serif;
   	font-optical-sizing: auto;
@@ -164,6 +214,20 @@
 	line-height: 1.5rem;
 	color: #FFFAF0;
 	text-align: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .text-workshop {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #FFFAF0;
+	text-align: center;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -251,10 +315,8 @@
   }
 
 .block {
-	padding:0rem;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .block-pic {
@@ -294,6 +356,12 @@
 	margin-bottom:0rem;
 }
 
+.container-workshop {
+    width: 100%;
+	padding-top:0rem;
+	margin-bottom:0rem;
+}
+
 .box {
     width: 100%; /* Adjusts the width of each box to fit side by side in the container */
     padding-top: 0;
@@ -310,6 +378,23 @@
 	width: 50%;
 	padding-top: 0;
 }
+
+.w1 {
+	align-items: left;
+	padding: 0rem;
+	margin: 0rem;
+	padding-top: 0;
+	width: 90%;
+}
+
+.w2 {
+	align-items: right;
+	padding: 0rem;
+	margin: 0rem;
+	padding-top: 0;
+	width: 90%;
+}
+
 
 .container-language {
     display: flex;
@@ -343,8 +428,34 @@
 }
 
 
+.block-workshop-left {
+	padding:1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #150F21;
+	border-radius: 4rem;
+	margin-bottom:0rem;
+	margin-top:0rem;
+}
 
+.block-workshop-right {
+	padding:1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #150F21;
+	border-radius: 4rem;
+	margin-bottom:0rem;
+	margin-top:0.2rem;
+}
 
+.block-author {
+	padding:0rem;
+	padding-top:3rem;
+	padding-bottom:3rem;
+	width: 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
@@ -407,6 +518,30 @@
 	margin-top:0rem;
 }
 
+.block-workshop-left {
+	padding:1rem;
+	padding-top: 3rem;
+	margin-right:0.1rem;
+	padding-bottom: 3rem;
+	background-color: #150F21;
+	border-radius: 4rem;
+	margin-bottom:0rem;
+	margin-top:0rem;
+	width: 48%;
+}
+
+.block-workshop-right {
+	padding:1rem;
+	margin-left:0.1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #150F21;
+	border-radius: 4rem;
+	margin-bottom:0rem;
+	margin-top:0rem;
+	width: 48%;
+}
+
 .block-dark-first {
 	padding:2rem;
 	padding-top: 3rem;
@@ -438,6 +573,15 @@
 
   .block {
 	padding:0rem;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-author {
+	padding:0rem;
+	padding-top:3rem;
+	padding-bottom:3rem;
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
@@ -536,5 +680,77 @@
 .space {
 	margin-bottom:3rem;
 }
+
+.w1 {
+	padding: 0rem;
+	margin: 0rem;
+	padding-top: 0;
+	width: 48%;
+}
+
+.w2 {
+	padding: 0rem;
+	margin: 0rem;
+	padding-top: 0;
+	width: 48%;
+}
+
+.container-workshop {
+    display: flex;
+    width: 100%;
+	padding-top:2rem;
+	margin-bottom:0rem;
+}
+
+.text-author {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #150F21;
+	text-align: left;ì
+  }
+  
+  .text-workshop {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #FFFAF0;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .link-registration {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 300;
+  	font-style: normal;
+	font-size: 2rem;
+	color: #FFFAF0;
+	text-decoration: none;
+	padding-left:0rem;
+	text-align: center;
+
+  }
+
+  .text-author {
+	font-family: "Heebo", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #150F21;
+	text-align: left;
+	padding-bottom:2rem;
+	padding-top:2rem;
+  }
 
 }
